@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.ibb.co/dJ7bsmR/D7-PFCY7kg-X2rp5rls9v-LYoap2fd2v-OQBFUIg-QO18nf-Cn-RRq3b73-FXw-Mpi-Y65u9-Ql-B7-A-w1200-h630-p.png);
+    opacity: 0.8;
+    background-color: hsl(0, 100%, 74%);
+    padding: 10px;
+    line-height:1.5;
+    color: white;
+    font-family:'open serif',sans-serif;
+    display: flex;
+    flex-direction:column;
+}
+@media (min-width: 600px) {
+    body{
+      flex-direction:row;
+      align-items:center;
+      margin: auto;
+      width: 100%;
+      line-height: 1.8;
+      
+    } 
+}
+.container{
+width: 100%;
+padding: 2px;
+font-weight: 600;
+
+}
+@media (min-width: 600px) {
+    .container{
+    padding: 12px;
+    width: 50%;
+    margin: 10%;
+    display: flex;
+    flex-direction:column;
+    }
+}
+
+
+div h2{
+    display:absolute;
+    margin-top: 14px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 20px;
+    font-size: 23px;
+    font-weight:700;
+}
+@media (min-width: 600px) {
+    div h2{
+        font-weight:800;
+        line-height: 25px;
+    }
+}
+div p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+.div-box{
+    margin:30px 4px 14px ;
+    padding: 16px 18px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 15px;
+    font-weight: 200;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.263);
+
+
+}
+.container-2{
+    width:100%;
+}
+@media (min-width: 600px) {
+    .container-2{
+        width: 50%;
+        display: flex;
+        flex-direction:column; 
+        padding: 20px;
+        margin: 0 6%;
+    }
+}
+
+form{
+    background-color: white;
+    margin-right:4px;
+    margin-left: 4px;
+    padding: 16px;
+    border-radius: 7px;
+    box-shadow: 2px 6px rgba(0, 0, 0, 0.263);
+}
+@media (min-width: 600px) {
+    form{
+    margin-left:0%;
+    margin-right: 0%;  
+    }
+}
+input{
+    padding: 9px;
+    display: flex;
+    margin:auto;
+    border: 1px solid rgba(143, 138, 138, 0.314);
+    border-radius: 3px;
+    align-items: center;
+}
+@media (min-width: 600px) {
+    input{
+      padding: 15px;
+    }
+}
+::placeholder{
+    color: rgba(46, 45, 45, 0.74); 
+    font-weight: 600; 
+}
+button{
+    display: flex;
+    margin: auto;
+    padding: 18px 25px 28px;
+    height: 4vh;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(154, 91%, 51%);
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 1px 3px hsl(154, 83%, 43%);
+}
+form p{
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(46, 45, 45, 0.501);
+}
+a{
+    text-decoration: none;
+    color:hsl(0, 95%, 69%);
+    font-weight: 700;
+}
